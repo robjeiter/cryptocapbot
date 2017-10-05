@@ -27,7 +27,9 @@ SECRET_KEY = '=64c^jxzsz7l+%+)mk9lza0)@*xjh7u$#r_ojpd@h5edg#io8l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['a86f6e7d.ngrok.io']
+ALLOWED_HOSTS = ['a86f6e7d.ngrok.io',
+    'sproject-dev.sa-east-1.elasticbeanstalk.com',
+]
 
 
 # Application definition
