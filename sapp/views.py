@@ -60,7 +60,7 @@ def get_price(request):
 
     User.objects.filter(currency='BTC', upper__lte=pbtcp).update(upper='1000000', lower='0')
 
-    return HttpResponse("hey there")
+    return HttpResponse("A warm hello to diocshka from Cryptocapbot deployed on AWS")
     
 
 def get_message_from_request(request):
