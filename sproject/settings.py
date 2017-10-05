@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['a86f6e7d.ngrok.io',
     'sproject-dev.sa-east-1.elasticbeanstalk.com',
+    'cryptocap.xyz',
 ]
 
 
